@@ -27,14 +27,14 @@ DB_FILE = os.path.join(BASE_DIR, "dispositivos.db")
 # SMTP
 # ------------------------------------------------------------
 
-SMTP_HOST = "smtp.dondominio.com"
+SMTP_HOST = "smtp.server.com"
 SMTP_PORT = 587
 
-SMTP_USER = "manel@molinaig.es"
-SMTP_PASSWORD = "Agora709-"
+SMTP_USER = "user@domain.es"
+SMTP_PASSWORD = "PASSWORD"
 
-SMTP_FROM = "manel@molinaig.es"
-SMTP_TO = "manel@molinaig.es"
+SMTP_FROM = "user@domain.es"
+SMTP_TO = "target@domain.es"
 
 # True para STARTTLS (normalmente puerto 587)
 SMTP_TLS = True
